@@ -1,0 +1,2 @@
+#!/bin/sh
+exec g++ main.cpp envconfig.cpp  SceneObject.cpp objload.cpp resources.cpp -lglut -lGLU -lGL -lm -w -std=c11 -lpthread -o ccrepo
